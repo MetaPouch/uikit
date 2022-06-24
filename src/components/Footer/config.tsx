@@ -1,182 +1,177 @@
-import { Language } from "../LangSelector/types";
-import { FooterLinkType } from "./types";
-import { TwitterIcon, TelegramIcon, RedditIcon, InstagramIcon, GithubIcon, DiscordIcon, MediumIcon } from "../Svg";
+import { Language } from '../LangSelector/types';
+import { FooterLinkType } from './types';
+import { TwitterIcon, TelegramIcon, RedditIcon, InstagramIcon, GithubIcon, DiscordIcon, MediumIcon } from '../Svg';
 
 export const footerLinks: FooterLinkType[] = [
   {
-    label: "About",
+    label: 'About',
     items: [
       {
-        label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        label: 'Contact',
+        href: 'https://metapouch.app/contact-us'
       },
       {
-        label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        label: 'Blog',
+        href: 'https://medium.com/@metapouch'
       },
       {
-        label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        label: 'Community',
+        href: 'https://discord.gg/xAqUeqxYqH'
       },
       {
-        label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        label: 'POUCH'
+        // href: 'https://docs.metapouch.app/tokenomics/pouch'
       },
       {
-        label: "—",
-      },
-      {
-        label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
-        isHighlighted: true,
-      },
-    ],
+        label: '—'
+      }
+    ]
   },
   {
-    label: "Help",
+    label: 'Help',
     items: [
       {
-        label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        label: 'Customer',
+        href: 'Support https://docs.metapouch.app/contact-us/customer-support'
       },
       {
-        label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        label: 'Troubleshooting',
+        href: 'https://docs.metapouch.app/help/troubleshooting'
       },
       {
-        label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
-      },
-    ],
+        label: 'Guides',
+        href: 'https://docs.metapouch.app/get-started'
+      }
+    ]
   },
   {
-    label: "Developers",
+    label: 'Developers',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/pancakeswap",
+        label: 'Github',
+        href: 'https://github.com/metapouch'
       },
       {
-        label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        label: 'Documentation',
+        href: 'https://docs.metapouch.app'
       },
       {
-        label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        label: 'Bug Bounty'
+        // href: 'https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty'
       },
       {
-        label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        label: 'Audits'
+        // href: 'https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited'
       },
       {
-        label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
-      },
-    ],
-  },
+        label: 'Careers',
+        href: 'https://www.linkedin.com/company/metapouch/'
+      }
+    ]
+  }
 ];
 
 export const socials = [
   {
-    label: "Twitter",
+    label: 'Twitter',
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: 'https://twitter.com/metapouch'
   },
+  // {
+  //   label: "Telegram",
+  //   icon: TelegramIcon,
+  //   items: [
+  //     {
+  //       label: "English",
+  //       href: "https://t.me/pancakeswap",
+  //     },
+  //     {
+  //       label: "Bahasa Indonesia",
+  //       href: "https://t.me/PancakeSwapIndonesia",
+  //     },
+  //     {
+  //       label: "中文",
+  //       href: "https://t.me/PancakeSwap_CN",
+  //     },
+  //     {
+  //       label: "Tiếng Việt",
+  //       href: "https://t.me/PancakeSwapVN",
+  //     },
+  //     {
+  //       label: "Italiano",
+  //       href: "https://t.me/pancakeswap_ita",
+  //     },
+  //     {
+  //       label: "русский",
+  //       href: "https://t.me/pancakeswap_ru",
+  //     },
+  //     {
+  //       label: "Türkiye",
+  //       href: "https://t.me/pancakeswapturkiye",
+  //     },
+  //     {
+  //       label: "Português",
+  //       href: "https://t.me/PancakeSwapPortuguese",
+  //     },
+  //     {
+  //       label: "Español",
+  //       href: "https://t.me/PancakeswapEs",
+  //     },
+  //     {
+  //       label: "日本語",
+  //       href: "https://t.me/pancakeswapjp",
+  //     },
+  //     {
+  //       label: "Français",
+  //       href: "https://t.me/pancakeswapfr",
+  //     },
+  //     {
+  //       label: "Deutsch",
+  //       href: "https://t.me/PancakeSwap_DE",
+  //     },
+  //     {
+  //       label: "Filipino",
+  //       href: "https://t.me/Pancakeswap_Ph",
+  //     },
+  //     {
+  //       label: "ქართული ენა",
+  //       href: "https://t.me/PancakeSwapGeorgia",
+  //     },
+  //     {
+  //       label: "Announcements",
+  //       href: "https://t.me/PancakeSwapAnn",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "Reddit",
+  //   icon: RedditIcon,
+  //   href: "https://reddit.com/r/pancakeswap",
+  // },
+  // {
+  //   label: "Instagram",
+  //   icon: InstagramIcon,
+  //   href: "https://instagram.com/pancakeswap_official",
+  // },
   {
-    label: "Telegram",
-    icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
-      },
-      {
-        label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/PancakeswapEs",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/pancakeswapjp",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/pancakeswapfr",
-      },
-      {
-        label: "Deutsch",
-        href: "https://t.me/PancakeSwap_DE",
-      },
-      {
-        label: "Filipino",
-        href: "https://t.me/Pancakeswap_Ph",
-      },
-      {
-        label: "ქართული ენა",
-        href: "https://t.me/PancakeSwapGeorgia",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
-      },
-    ],
-  },
-  {
-    label: "Reddit",
-    icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
-  },
-  {
-    label: "Instagram",
-    icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
-  },
-  {
-    label: "Github",
+    label: 'Github',
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
-  },
-  {
-    label: "Discord",
-    icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
-  },
-  {
-    label: "Medium",
-    icon: MediumIcon,
-    href: "https://pancakeswap.medium.com/",
-  },
+    href: 'https://github.com/metapouch/'
+  }
+  // {
+  //   label: "Discord",
+  //   icon: DiscordIcon,
+  //   href: "https://discord.gg/pancakeswap",
+  // },
+  // {
+  //   label: "Medium",
+  //   icon: MediumIcon,
+  //   href: "https://metapouch.medium.com/",
+  // },
 ];
 
-export const langs: Language[] = [...Array(20)].map((_, i) => ({
+export const langs: Language[] = [...Array(1)].map((_, i) => ({
   code: `en${i}`,
-  language: `English${i}`,
-  locale: `Locale${i}`,
+  language: `English`,
+  locale: `Locale`
 }));
