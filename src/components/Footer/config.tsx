@@ -75,7 +75,8 @@ export const socials = [
   {
     label: 'Twitter',
     icon: TwitterIcon,
-    href: 'https://twitter.com/metapouch'
+    href: 'https://twitter.com/metapouch',
+    items: []
   },
   // {
   //   label: "Telegram",
@@ -156,7 +157,8 @@ export const socials = [
   {
     label: 'Github',
     icon: GithubIcon,
-    href: 'https://github.com/metapouch/'
+    href: 'https://github.com/metapouch/',
+    items: []
   }
   // {
   //   label: "Discord",
