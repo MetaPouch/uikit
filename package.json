@@ -1,6 +1,6 @@
 {
   "name": "@metapouch/uikit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set of UI components for metapouch projects",
   "main": "src/index.ts",
   "sideEffects": "false",
