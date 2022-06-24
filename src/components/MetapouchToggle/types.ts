@@ -27,13 +27,13 @@ export interface InputProps {
 }
 
 export const scaleKeys = {
-  pancakeSize: 'pancakeSize',
+  metapouchSize: 'metapouchSize',
   travelDistance: 'travelDistance',
   toggleHeight: 'toggleHeight',
   toggleWidth: 'toggleWidth',
-  pancakeThickness: 'pancakeThickness',
-  pancakeTwoOffset: 'pancakeTwoOffset',
-  pancakeThreeOffset: 'pancakeThreeOffset',
+  metapouchThickness: 'metapouchThickness',
+  metapouchTwoOffset: 'metapouchTwoOffset',
+  metapouchThreeOffset: 'metapouchThreeOffset',
   butterTop: 'butterTop',
   butterLeft: 'butterLeft',
   butterWidth: 'butterWidth',
