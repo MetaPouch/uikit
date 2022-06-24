@@ -64,7 +64,7 @@ const scaleKeyValues = {
 const getScale =
   (property: ScaleKeys) =>
   ({ scale = scales.LG }: MetapouchToggleProps) => {
-    return scaleKeyValues[scale][property];
+    return (scaleKeyValues as any)[scale][property];
   };
 
 export const MetapouchStack = styled.div<HandleProps>`
