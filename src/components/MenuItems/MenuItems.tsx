@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { createElement, memo } from "react";
-import { Flex } from "../Box";
-import isTouchDevice from "../../util/isTouchDevice";
-import DropdownMenu from "../DropdownMenu/DropdownMenu";
-import MenuItem from "../MenuItem/MenuItem";
-import { MenuItemsProps } from "./types";
+import { createElement, memo } from 'react';
+import { Flex } from '../Box';
+import isTouchDevice from '../../util/isTouchDevice';
+import DropdownMenu from '../DropdownMenu/DropdownMenu';
+import MenuItem from '../MenuItem/MenuItem';
+import { MenuItemsProps } from './types';
+import React from 'react';
 
 const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSubItem, ...props }) => {
   return (
@@ -17,7 +18,7 @@ const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSub
         return (
           <DropdownMenu key={`${label}#${href}`} items={menuItems} py={1} activeItem={activeSubItem}>
             <MenuItem {...linkProps} isActive={isActive} statusColor={statusColor}>
-              {label || (icon && createElement(Icon as any, { color: isActive ? "secondary" : "textSubtle" }))}
+              {label || (icon && createElement(Icon as any, { color: isActive ? 'secondary' : 'textSubtle' }))}
             </MenuItem>
           </DropdownMenu>
         );

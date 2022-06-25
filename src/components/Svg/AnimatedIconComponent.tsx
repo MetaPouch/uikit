@@ -1,11 +1,12 @@
-import { StyledAnimatedIconComponent, StyledIconContainer } from "./styles";
-import { IconComponentType } from "./types";
+import React from 'react';
+import { StyledAnimatedIconComponent, StyledIconContainer } from './styles';
+import { IconComponentType } from './types';
 
 const AnimatedIconComponent: React.FC<IconComponentType> = ({
   icon,
   fillIcon,
-  color = "textSubtle",
-  activeColor = "secondary",
+  color = 'textSubtle',
+  activeColor = 'secondary',
   activeBackgroundColor,
   isActive = false,
   ...props
