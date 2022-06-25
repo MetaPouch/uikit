@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/@metapouch/uikit)](https://www.npmjs.com/package/@metapouch/uikit) [![Size](https://img.shields.io/bundlephobia/min/@metapouch/uikit)](https://www.npmjs.com/package/@metapouch/uikit)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+MetaPouch UI Kit is a set of React components and hooks used to build pages on MetaPouch's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 

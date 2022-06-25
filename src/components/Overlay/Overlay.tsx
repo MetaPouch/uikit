@@ -1,6 +1,7 @@
-import styled, { css, keyframes } from "styled-components";
-import { FC, useEffect } from "react";
-import { Box, BoxProps } from "../Box";
+import styled, { css, keyframes } from 'styled-components';
+import { FC, useEffect } from 'react';
+import { Box, BoxProps } from '../Box';
+import React from 'react';
 
 const unmountAnimation = keyframes`
     0% {
@@ -42,7 +43,7 @@ const BodyLock = () => {
     document.body.style.cssText = `
       overflow: hidden;
     `;
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = 'hidden';
     return () => {
       document.body.style.cssText = `
         overflow: visible;

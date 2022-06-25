@@ -1,13 +1,14 @@
-import useTooltip from "../../hooks/useTooltip/useTooltip";
-import { BoxProps, Flex } from "../Box";
-import { InfoIcon } from "../Svg";
+import React from 'react';
+import useTooltip from '../../hooks/useTooltip/useTooltip';
+import { BoxProps, Flex } from '../Box';
+import { InfoIcon } from '../Svg';
 
 type InfoTooltip = {
   text: string;
   iconColor?: string;
 } & BoxProps;
 
-const InfoTooltip: React.FC<InfoTooltip> = ({ text, iconColor = "textSubtle", ...props }) => {
+const InfoTooltip: React.FC<InfoTooltip> = ({ text, iconColor = 'textSubtle', ...props }) => {
   const { targetRef, tooltip, tooltipVisible } = useTooltip(text, {});
   return (
     <Flex {...props} alignItems="center">

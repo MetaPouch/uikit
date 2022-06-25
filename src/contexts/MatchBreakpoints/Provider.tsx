@@ -1,11 +1,11 @@
-import { createContext } from "react";
-import { BreakpointChecks } from "../../hooks/useMatchBreakpoints";
-import { useMatchBreakpoints } from "../../hooks";
+import React, { createContext } from 'react';
+import { BreakpointChecks } from '../../hooks/useMatchBreakpoints';
+import { useMatchBreakpoints } from '../../hooks';
 
 export const MatchBreakpointsContext = createContext<BreakpointChecks>({
   isMobile: false,
   isTablet: false,
-  isDesktop: false,
+  isDesktop: false
 });
 
 export const MatchBreakpointsProvider: React.FC = ({ children }) => {
