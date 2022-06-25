@@ -1,6 +1,6 @@
 {
   "name": "@metapouch/uikit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Set of UI components for MetaPouch projects",
   "sideEffects": "false",
   "scripts": {
@@ -13,7 +13,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o docs-build",
     "test": "jest",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
