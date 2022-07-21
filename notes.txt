@@ -1,1 +1,6 @@
-npm i --save-dev @babel/core @babel/preset-env @babel/preset-react @rollup/plugin-json @rollup/plugin-typescript @rollup/plugin-url @storybook/addon-a11y @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/react @testing-library/jest-dom @testing-library/react @types/lodash @types/react-dom @types/react-router-dom babel-jest babel-loader babel-plugin-styled-components jest-styled-components react@^18.0.0 react-dom react-is react-router-dom rollup styled-components themeprovider-storybook ts-jest
+Cannot find module 'react/package.json' #13665
+https://github.com/storybookjs/storybook/issues/13665
+-> npm uninstall storybook
+-> npm install storybook
+-> yarn build
+-> yarn start
